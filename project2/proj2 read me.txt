@@ -1,0 +1,17 @@
+Acmes Iowa Housing Project
+
+This is project #2 of the GA data science immersive course, focusing on analyzing the Housing Acmes Iowa set.
+
+The purpose of this project is when to narrow down the features out of the 80 features that actually predict and decide the price of the housing prices based on a test set data .
+
+We are given a test csv data without sales price and a full training csv data set with null values and different ordinal , and features.
+
+1)We cleaned the data
+2) Did exploratory data analysis for the data , cleaned null values 
+3) We removed the unnecessary columns based on correlation and our EDA.
+4) we performed linear regression , Ridge regression and lasso regression to narrow down the features that tested our train set on validationtest set.
+5)then we got a model and predicted on our test csv set with a root mean square error of $40000 that predicts the sales price based on a test data set.
+6) we thus have 52 features.
+
+7) we then try to reduce the features to 30 by keeping the 30 top correlated features ,and tested the same ridge model on the features on the test set.
+8) We then end up finalised with a $35k root mean square error and keeping 30 top features that predict housing sales price.
